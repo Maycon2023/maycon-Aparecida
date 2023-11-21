@@ -5,6 +5,7 @@
 body{
 	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 	font-size: 14px;
+	background-color: #f8f8f8;
 }
 
 header{
@@ -38,6 +39,18 @@ header .container:before{
 	margin: 0 auto;
 }
 
+.cont1{
+	position: absolute;
+	right: 10px;
+	left: 700px;
+}
+
+.add_p{
+	position: absolute;
+	left: 10px;
+	right: 1200px;
+}
+
 section{
 	margin: 2em 0;
 	overflow: hidden;
@@ -67,7 +80,8 @@ td, th {
 
 th{
 	font-weight: bold;
-	background-color: #EEE;
+	background-color: #0b62e485;
+	border-color: #0c8cd3;
 }
 
 label{
@@ -79,10 +93,9 @@ label{
 .campo{
 	margin: 0;
 	padding-bottom: 1em;
-	width: 100%;
+	width: 96%;
 	border: 1px solid #ccc;
 	padding: .7em;
-	width: 100%;
 }
 
 .campo-medio{
@@ -97,7 +110,7 @@ label{
 }
 
 button{
-	padding: .5em 2em;
+	padding: .5em .5em;
 	border: 0;
 	border-bottom: 3px solid;
 	font-size: 1.2em;
@@ -131,4 +144,46 @@ button[disabled=disabled], button:disabled {
 
 .campo-invalido{
 	border: 1px solid red;
+}
+
+.paciente-invalido {
+	background-color: lightcoral;
+}
+
+#mensagens-erro {
+	color: red;
+}
+
+.fadeOut {
+	opacity: 0;
+	transition: 0.5s;
+}
+
+#filtrar-tabela {
+	width: 200px;
+	height: 35px;
+	margin-bottom: 10px;
+}
+
+.invisivel {
+	display: none;
+}
+
+.imagem{
+	width: 1995px;
+	height: 380px;
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	right:30px;
+}
+
+.cont1{
+	position: absolute;
+	top: 400px;
+}
+
+.add_p{
+	position: absolute;
+	top: 400px;
 }
