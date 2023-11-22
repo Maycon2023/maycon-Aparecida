@@ -13,7 +13,7 @@ botaoAdicionar.addEventListener("click", function(event) {
     if (erros.length > 0) {
         exibeMensagensDeErro(erros);
 
-     return;
+     return paciente;
         }
 
             var tabela = document.querySelector("#tabela-pacientes");
@@ -38,10 +38,9 @@ function obtemPacienteDoFormulario(form) {
             EstadoCivil: form.EstadoCivil.value,
             Profissão: form.Profissão.value,
             peso: form.peso.value,
-            peso: form.peso.value,
             altura: form.altura.value,
             gordura: form.gordura.value,
-            Email: form.Email.value,
+            Email: calculaImc(form.imc.value, form.altura.value,)
         }
 
     return paciente;

@@ -13,7 +13,7 @@ botaoAdicionar.addEventListener("click", function(event) {
     if (erros.length > 6) {
         exibeMensagensDeErro(erros);
 
-     return;
+     return paciente;
         }
 
             var tabela = document.querySelector("#tabela-pacientes");
@@ -37,6 +37,10 @@ function montaTr(paciente) {
         pacienteTr.classList.add("paciente");
 
         pacienteTr.appendChild(montaTd(paciente.nome, "info-nome"));
+        pacienteTr.appendChild(montaTd(paciente.Matricula, "info-Matricula"));
+        pacienteTr.appendChild(montaTd(paciente.idade, "info-idade"));
+        pacienteTr.appendChild(montaTd(paciente.Telefone, "info-Telefone"));
+        pacienteTr.appendChild(montaTd(paciente.Celular, "info-Celular"));
         pacienteTr.appendChild(montaTd(paciente.peso, "info-peso"));
         pacienteTr.appendChild(montaTd(paciente.altura, "info-altura"));
         pacienteTr.appendChild(montaTd(paciente.gordura, "info-gordura"));
