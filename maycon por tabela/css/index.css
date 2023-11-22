@@ -41,14 +41,14 @@ header .container:before{
 
 .cont1{
 	position: absolute;
-	right: 10px;
-	left: 700px;
+	right: 9px;
+	left: 330px;
 }
 
 .add_p{
 	position: absolute;
 	left: 10px;
-	right: 1200px;
+	right: 1050px;
 }
 
 section{
@@ -80,8 +80,8 @@ td, th {
 
 th{
 	font-weight: bold;
-	background-color: #0b62e485;
-	border-color: #0c8cd3;
+	background-color: #00d5ff;
+	border-color: #0008ff;
 }
 
 label{
@@ -115,11 +115,11 @@ button{
 	border-bottom: 3px solid;
 	font-size: 1.2em;
 	cursor: pointer;
-	margin: 0;
+	margin: 10;
 	margin-top: -3px;
 	color: #fff;
-	background-color:#0c8cd3;
-	border-color: #04324c;
+	background-color:#ff0090;
+	border-color: #c800f5;
 	width: 20%;
     display: block;
     clear: both;
@@ -170,7 +170,7 @@ button[disabled=disabled], button:disabled {
 }
 
 .imagem{
-	width: 1995px;
+	width: 1335px;
 	height: 380px;
 	position: absolute;
 	top: 40px;
